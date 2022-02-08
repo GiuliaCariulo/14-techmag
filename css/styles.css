@@ -10,4 +10,65 @@ html {
 body {
   max-width: 320px;
   margin: auto;
+  padding: 15px;
+  font-family:'Open Sans', sans-serif;
+  font-weight: 400;
+  background-color: black;
+}
+
+header {
+  background-image: url(../img/screen-code.jpg);
+  border: 2px solid white;
+  color: white;
+  padding: 30px 20px;
+}
+
+article {
+    background-color: white;
+    padding: 30px;
+}
+
+footer {
+    border: 2px solid rgb(133, 255, 194);
+    color: white;
+}
+
+figcaption {
+    font-size: 9px;
+}
+
+header h1 {
+  font-family:'Montserrat', sans-serif;
+  font-weight: 800;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+.title {
+  color: rgb(133, 255, 194);
+  font-weight: 100;
+  font-style: italic;
+}
+
+.intro {
+  background-color: rgb(133, 255, 194);
+  padding: 30px 20px;
+  margin: 20px 0;
+  box-sizing: border-box;
+}   
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    color: white;
+    background-color: rgb(68, 67, 67);
+    padding: 3px 5px;
 }
