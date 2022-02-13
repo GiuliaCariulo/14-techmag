@@ -4,42 +4,51 @@
 */
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  max-width: 320px;
-  margin: auto;
-  padding: 15px;
-  font-family:'Open Sans', sans-serif;
-  font-weight: 400;
-  background-color: black;
+    max-width: 320px;
+    margin: auto;
+    padding: 19px 25px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    background-color: black;
 }
 
 header {
-  background-image: url(../img/screen-code.jpg);
-  border: 2px solid white;
-  color: white;
-  padding: 30px 20px;
+    background-image: url(../img/screen-code.jpg);
+    border: 2px solid white;
+    color: white;
+    padding: 51px 29px;
 }
 
 article {
     background-color: white;
-    padding: 30px;
+    padding: 31px;
+    margin: 20px 0;
 }
 
 footer {
-    border: 2px solid rgb(133, 255, 194);
+    border: 2px solid #2bffaa;
     color: white;
-}
-
-figcaption {
+    text-align: center;
     font-size: 9px;
 }
 
+figcaption {
+    font-size: 12px;
+}
+
 header h1 {
-  font-family:'Montserrat', sans-serif;
-  font-weight: 800;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+background-image {
+    filter: brightness(0.4);
 }
 
 h1 {
@@ -52,23 +61,39 @@ img {
 }
 
 .title {
-  color: rgb(133, 255, 194);
-  font-weight: 100;
-  font-style: italic;
+    color: #2af9b2;
+    font-weight: 100;
+    font-style: italic;
 }
 
 .intro {
-  background-color: rgb(133, 255, 194);
-  padding: 30px 20px;
-  margin: 20px 0;
-  box-sizing: border-box;
+    background-color: #2afca6;
+    padding: 30px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    color: #084934;
 }   
+
+.information {
+    font-size: 13px;
+    color: #bababa;
+}
+
+.date {
+    font-weight: bold;
+    color: black;
+}
+
+.autor {
+    color: #18fca8;
+}
 
 .button {
     font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 800;
+    text-decoration: none;
     color: white;
     background-color: rgb(68, 67, 67);
-    padding: 3px 5px;
+    padding: 6px 13px;
 }
