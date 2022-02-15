@@ -21,12 +21,12 @@ header {
     background-image: url(../img/screen-code.jpg);
     border: 2px solid white;
     color: white;
-    padding: 51px 29px;
+    padding: 30px;
 }
 
 article {
     background-color: white;
-    padding: 31px;
+    padding: 20px;
     margin: 20px 0;
 }
 
@@ -37,27 +37,23 @@ footer {
     font-size: 9px;
 }
 
-figcaption {
-    font-size: 12px;
-}
-
-header h1 {
-    font-family:'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: 25px;
-}
-
-background-image {
-    filter: brightness(0.4);
-}
-
 h1 {
     font-weight: 700;
     font-size: 16px;
 }
 
+figcaption {
+    font-size: 12px;
+    padding: 6px 10px;
+}
+
+figure {
+    margin: 16px 10px 32px 10px;
+    box-shadow: lightgray 0 0 10px 1px;
+}
+
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .title {
@@ -68,9 +64,8 @@ img {
 
 .intro {
     background-color: #2afca6;
-    padding: 30px;
+    padding: 20px 20px 26px 20px;
     margin: 20px 0;
-    box-sizing: border-box;
     color: #084934;
 }   
 
@@ -90,10 +85,20 @@ img {
 
 .button {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 800;
     text-decoration: none;
     color: white;
     background-color: rgb(68, 67, 67);
-    padding: 6px 13px;
+    padding: 5px 15px;
+}
+
+header h1 {
+    font-family:'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+header p {
+    opacity: 70%;
 }
