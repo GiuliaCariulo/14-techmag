@@ -1,99 +1,99 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    max-width: 320px;
-    margin: auto;
-    padding: 21px;
-    font-family:'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    background-color: black;
+  max-width: 320px;
+  margin: auto;
+  padding: 21px;
+  font-family:'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: black;
 }
 
 header {
-    background-image: url(../img/screen-code.jpg);
-    border: 2px solid white;
-    color: white;
-    padding: 30px 30px 40px 30px;
+  background-image: url(../img/screen-code.jpg);
+  border: 2px solid white;
+  color: white;
+  padding: 30px 30px 40px 30px;
 }
 
 article {
-    background-color: white;
-    padding: 30px;
-    margin: 21px 0;
+  background-color: white;
+  padding: 30px;
+  margin: 21px 0;
 }
 
 footer {
-    border: 2px solid #2afca6;
-    color: white;
-    text-align: center;
-    font-size: 12px;
+  border: 2px solid #2afca6;
+  color: white;
+  text-align: center;
+  font-size: 12px;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 17px;
 }
 
 figcaption {
-    font-size: 12px;
-    padding: 5px 14px;
+  font-size: 12px;
+  padding: 5px 14px;
 }
 
 figure {
-    margin: 0 0 30px 0;
-    box-shadow: lightgray 0 0 10px 1px;
+  margin: 0 0 30px 0;
+  box-shadow: lightgray 0 0 10px 1px;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .title {
-    color: #2afca6;
-    font-weight: 100;
-    font-style: italic;
+  color: #2afca6;
+  font-weight: 100;
+  font-style: italic;
 }
 
 .intro {
-    background-color: #2afca6;
-    padding: 20px 40px 31px 25px;
-    margin: 20px 0;
-    color: #084934;
+  background-color: #2afca6;
+  padding: 20px 40px 31px 25px;
+  margin: 20px 0;
+  color: #084934;
 }   
 
 .information {
-    font-size: 13px;
-    color: #bababa;
+  font-size: 13px;
+  color: #bababa;
 }
 
 .date {
-    color: black;
+  color: black;
 }
 
 .autor {
-    color: #2afca6;
+  color: #2afca6;
 }
 
 .button {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
-    font-weight: 800;
-    text-decoration: none;
-    color: white;
-    background-color: rgb(68, 67, 67);
-    padding: 5px 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(68, 67, 67);
+  padding: 5px 15px;
 }
 
 header h1 {
-    font-family:'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: 25px;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 25px;
 }
 
 header p {
-    opacity: 70%;
+  opacity: 70%;
 }
